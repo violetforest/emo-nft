@@ -2,6 +2,7 @@ import React from 'react';
 import randomUsername from '../username';
 import randomLyrics from '../lyrics';
 import randomColor from '../colors';
+import randomVideo from '../video';
 
 class Main extends React.Component {
     render() {
@@ -22,7 +23,7 @@ class Main extends React.Component {
             <p>
               <em>{randomLyrics} <br /> &hearts;</em>
             </p>
-            <iframe width="410" height="230" src="https://www.youtube.com/embed/FV-HPOHu8mY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="410" height="230" src={randomVideo} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br />
             <br />
             <h3><strike>Who I'd like to meet:</strike></h3>
