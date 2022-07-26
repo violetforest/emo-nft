@@ -11,6 +11,9 @@ class Myspace extends React.Component {
   render() {
     let bg = "./bg/" + randomColor.bg;
     document.body.style.background = "url('" + bg + "')";
+    document.body.style.backgroundRepeat = "" + randomColor.repeat
+    document.body.style.backgroundSize = "" + randomColor.bgSize
+    document.body.style.backgroundAttachment = "" + randomColor.bgAttach
     return (
       <div className="master-container">
         <Header />
