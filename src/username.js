@@ -1,5 +1,4 @@
 let username = [
-    'xXxgorethumbxXx', 
     'xxlilcrysxx', 
     'xXxlovechocolatexXx', 
     'xxdeadStarxx', 
@@ -14,7 +13,7 @@ let username = [
     'xxAngelFromYourNightmarexx',
     'emostateofmind',
     'the_skellingtons',
-    'mrsbrightside',
+    'mrs_brightside',
     'skullsandpotions',
     'XxHopelessRomanticxX',
     'my_chemical_imbalance',
